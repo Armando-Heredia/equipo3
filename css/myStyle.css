@@ -1,0 +1,28 @@
+body{
+    background-color: #333333;
+}
+.contenido{
+    margin: 3.5rem 6rem 2rem;
+    padding: 30px 30px 10px;
+    background-color: #cfcfcf;
+    border: #9f9f9f 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenido p{
+    color: black;
+    font-size: 17px;
+    font-style: oblique;
+}
+h4{
+    text-align: center;
+}
+.containers{
+    margin: 5rem 9rem 4rem;
+    background-color: rgba(235, 235, 235, 0.699);
+    border: #cfcfcf solid 2px;
+    border-radius: 20px;
+}
+.mb-3{
+    padding: 30px 46px 20px;
+}

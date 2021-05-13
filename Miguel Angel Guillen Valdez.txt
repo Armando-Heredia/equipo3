@@ -1,4 +1,0 @@
-Nombre: Miguel Angel Guillen Valdez
-institucion: UTA
-Correo: mickey.guillen2000@gmail.com
-Editor: Visual Studio Code

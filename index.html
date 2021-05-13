@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./css/stylesp.css">
 </head>
 <body>
+    
+    
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand font-weight-bold" href="./carousel.html">Cinemas GIT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse">
+      <a class="navbar-brand font-weight-bold" href="https://github.com/Armando-Heredia/equipo3">Cinemas GIT</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="./carousel.html">Home</a>
@@ -36,8 +38,11 @@
       </ul>
     </div>
   </nav>
-
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <button type="button" class="btn btn-lg btn-danger" 
+  data-bs-toggle="popover" title="Popover title" 
+  data-bs-content="And here's some amazing content. It's very engaging. Right?"
+  style="text-align: center; margin: 12px;">Click to toggle popover</button>
+      <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -45,21 +50,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./imagenes/5M63V3YO65FPBM6WVN3WTBTWV4.jpg" class="d-block w-70" alt="...">
+            <img src="./img/img0.jpg" class="d-block w-70" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/images.jpg" class="d-block w-100" alt="...">
+            <img src="./img/images.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/peliculas-estrenos-2021.jpg" class="d-block w-100" alt="...">
+            <img src="./img/img2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -84,6 +89,113 @@
         </div>
       </div>
     </div>
+
+      <div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img0.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                El señor de los anillos
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img1.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                El extraño mundo de Jack
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img2.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                Shrek
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+    
+            <div class="row my-5">
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img3.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                Moana
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img4.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                Star wars
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img5.jpg" alt="">
+                        <div class="capa">
+                            <h1 class="titulo-galeria">
+                                Charlie y la fabrica de chocolates
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+    
+            <div class="row my-5">
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img6.jpg" alt="">
+                        <div class="capa ">
+                            <h1 class="titulo-galeria">
+                                Iron Man
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img7.jpg" alt="">
+                        <div class="capa ">
+                            <h1 class="titulo-galeria">
+                                Harry potter
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+                <div class="contenedor col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                    <figure>
+                        <img src="./img/img8.jpg" alt="">
+                        <div class="capa ">
+                            <h1 class="titulo-galeria">
+                                Contracara
+                            </h1>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+    </div>
+
+    <!--Estos scripts lineas van hasta el final-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
 <script>
 
